@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación con divs</title>
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos_maquetacion.css">
+    <link rel="shortcut icon" href="img/Twice-Simbolo.png" type="image/x-icon">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- COLOCA TU LOGO AQUÍ -->
+                <a href="index.html">
+                    <img src="img/Twice-Simbolo.png"  alt="Twice">
+                </a>
+            </div>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fi fi-sr-home"></i>Inicio</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#"><i class="fi fi-sr-album"></i>Albumes▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Formula of Love: O+T </a></li>
+                            <li><a href="#">This Is For</a></li>
+                            <li><a href="#">Ten: The Story Goes On</a></li>
+                        </ul>
+                    </li>
+                   
+
+                    <li><a href="#"><i class="fi fi-br-stage"></i>Conciertos</a></li>
+                    <li><a href="#"><i class="fi fi-sr-user-music"></i>Integrantes</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container" style="padding: 100px 0;">
+        <h1 style="font-size: 3rem; margin-bottom: 20px;">TWICE</h1>
+        <p style="font-size: 1.2rem; max-width: 600px;">TWICE es un grupo femenino surcoreano de K-pop formado por JYP Entertainment que debutó oficialmente el 20 de octubre de 2015. </p>
+        <!-- SECCIÓN DE NOTICIAS Y EVENTOS -->
+        <section class="seccion-info">
+            
+            <!-- FILA DE 2 CUADROS (Noticias Destacadas) -->
+            <h2 class="titulo-seccion">Novedades</h2>
+            <div class="contenedor-dos">
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/cheer up.jpg" width="300"></div>
+                    <h3>Cheer Up Baby!!!</h3>
+                    <p>El segundo mini álbum de TWICE, "Page Two" (lanzado en abril de 2016), es el proyecto que catapultó al grupo al estrellato masivo gracias a su icónico tema principal, "CHEER UP". Con un concepto sumamente colorido, fresco y deportivo, el álbum destaca por su estilo "color pop", una mezcla muy enérgica de dance, pop y hip-hop.
+                    </p>
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder"><img src="img/twice-sixteen-.jpg" width="300"></div>
+                    <h3>¿Cómo Surgió Twice?</h3>
+                    <p>En este programa, 16 jóvenes se enfrentaron en batallas extremas de talento y carisma, divididas cruelmente entre el éxito ("Major") y el fracaso ("Minor"). Lo que nadie esperaba fue el caótico giro final: cuando el grupo ya estaba cerrado con siete elegidas, un cambio de reglas de último minuto lo cambió todo, rescatando del descarte a dos integrantes que terminarían siendo la clave de su éxito masivo. Así nació una leyenda.
+                    </p>
+                    
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+            </div>
+
+            <!-- FILA DE 3 CUADROS (Eventos o Info Rápida) -->
+            <h2 class="titulo-seccion">Datos importantes</h2>
+            <div class="contenedor-tres">
+    <!-- Cuadro con Imagen -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/The story goes on.jpg" width="">
+        </div>
+        <h4>Twice 10 años</h4>
+        <p>TWICE ha celebrado su décimo aniversario con un álbum especial titulado "TEN: The Story Goes On".</p>
+    </div>
+
+    <!-- Cuadro con Video -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <video controls>
+                <source src="Video/TWICE.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+        <h4>Twice en The Tonight Show</h4>
+        <p>Una gran noche.</p>
+    </div>
+
+    <!-- Cuadro con Info Rápida (Solo texto si quieres) -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/What is love.jpg" width="" alt="Evento">
+        </div>
+        <h4>I wanna Know What Is Love?</h4>
+        <p>Trata sobre la tierna curiosidad de nueve chicas que solo conocen el amor a través de los libros y las películas, y se preguntan cuándo les llegará el momento de vivirlo en la realidad.</p>
+    </div>
+</div>
+</section>
+</main>      
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>📍 Seoul Gangnam-gu</p>
+                    <p>📞 +82 2-2225-8100</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Ubicación</h4>
+                    <p>Seul, Corea del sur</p>
+                    <p>Corea</p>
+                    <a href="#">Ver en Google Maps</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Whatsapp</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Daniela Monserrat Hernández Cantú 3ro "E". Todos los derechos reservados.
+            </div>
+        </div>
+     </footer>
+
+</body>
+</html>
